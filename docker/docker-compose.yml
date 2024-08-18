@@ -10,7 +10,7 @@ services:
       - 9001:9001
     environment:
       - BPL_JVM_THREAD_COUNT=50
-      - SPRING_DATASOURCE_URL=jdbc:postgresql://polar-postgres:5432/polardb-catalog
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://polar-postgres:5436/polardb-catalog
 
   polar-postgres:
     image: "postgres:14.12"
